@@ -1,0 +1,75 @@
+.headerTalkBtn{
+    margin-left: 20px;
+}
+
+.headerTalkBtn .btn-circle{
+    color: white;
+}
+
+.headerTalkBtn .circle-fill{
+    background-color: white!important;
+}
+
+.headerTalkBtn .ms-btn__text{
+    font-size: 17px;
+}
+
+.headerTalkBtn svg.icon-arrow{
+    fill: #000!important;
+}
+
+.projects1 .headerTalkBtn .btn-circle{
+    color: #000;
+}
+
+.headerTalkBtn.btn-wrap .btn{
+    color: var(--color-contrast-higher);
+}
+
+.homePage .headerTalkBtn .btn-circle{
+    color: white;
+}
+
+.darkThing .headerTalkBtn .circle-fill{
+    background-color: black!important;
+}
+
+.darkThing .headerTalkBtn svg.icon-arrow{
+    fill: #fff!important;
+}
+
+.portfPage main.ms-main{
+    padding-top: 50px;
+}
+
+.contactPage .contact-map-area{
+    padding-top: 70px;
+}
+
+.projects1 .breadcrumb-area.breadcrumbs-2 .breadcrumb-1 .heading-title{
+    font-size: 45px;
+    line-height: 57px;
+}
+
+.singleBlog .ms-sp--article{
+    padding: 0 30px;
+}
+
+.singleBlog .ms-sp--article h3, .singleBlog .ms-sp--article p{
+    margin-bottom: 15px;
+}
+
+.singleBlog .ms-related-posts{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:600px){
+    .projects1 .breadcrumb-area.breadcrumbs-2 .breadcrumb-1 .heading-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .projects1 .breadcrumb-area.breadcrumbs-2{
+        padding-top: 150px;
+    }
+}
